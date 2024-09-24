@@ -1,5 +1,5 @@
 import axios from 'axios';
-const url = process.env.API_URL;
+const url = import.meta.env.API_URL;
 
 // Todos API
 export const addTodo = async (todoData) => {
